@@ -1,0 +1,26 @@
+{
+  "name": "ensure-env",
+  "version": "1.0.0-1",
+  "description": "Ensure Environment Variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekSeverson/ensure-env.git"
+  },
+  "keywords": [
+    "env",
+    "vars",
+    "environment",
+    "variables",
+    "ensure"
+  ],
+  "author": "Derek Severson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DerekSeverson/ensure-env/issues"
+  },
+  "homepage": "https://github.com/DerekSeverson/ensure-env#readme"
+}
