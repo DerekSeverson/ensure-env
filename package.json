@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/DerekSeverson/ensure-env/issues"
   },
-  "homepage": "https://github.com/DerekSeverson/ensure-env#readme"
+  "homepage": "https://github.com/DerekSeverson/ensure-env#readme",
+  "dependencies": {
+    "lodash.isstring": "^4.0.1"
+  }
 }
