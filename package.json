@@ -1,6 +1,6 @@
 {
   "name": "ensure-env",
-  "version": "1.0.0-1",
+  "version": "1.0.0",
   "description": "Ensure Environment Variables",
   "main": "index.js",
   "scripts": {
