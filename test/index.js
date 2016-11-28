@@ -5,6 +5,13 @@ var env = require('../index');
 
 describe('ensure-env', function () {
 
+  it('should throw invalid args error', function () {
+    assert.throws(
+      () => env(),
+      /Invalid Arguments/
+    );
+  });
+
   it('should throw error if missing env var', function () {
     assert.throws(
       () => env('MY_MISSING_VAR'),

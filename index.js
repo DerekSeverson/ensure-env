@@ -10,7 +10,7 @@ exports = module.exports = function (name, isValid, errorMessage) {
     (exists(isValid) && !isFunction(isValid)) ||
     (exists(errorMessage) && !isString(errorMessage))
   ) {
-    throw new Error('Invalid Argument');
+    throw new Error('Invalid Arguments');
   }
 
   if (!(name in process.env)) {
